@@ -1,0 +1,31 @@
+
+.container {
+    width: 90vw;
+    max-width: 2000px;
+    margin:5rem auto;
+    overflow: hidden;
+}
+
+.card {
+    border-radius: .75rem;
+    width: 100%;
+    /* min-width: 200px;
+    max-width: 400px; */
+    margin:0;   
+}
+
+.col-sm-1, .col-lg-1 {
+    /* width: 100%; */
+    min-width: 200px;
+    /* max-width: 400px; */
+    margin:.5rem;
+}
+
+.card-img, .card-img-top {
+    border-top-left-radius: .75rem;
+    border-top-right-radius: .75rem;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
